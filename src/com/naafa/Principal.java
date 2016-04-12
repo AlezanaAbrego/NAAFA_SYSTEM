@@ -54,6 +54,7 @@ public class Principal extends JFrame implements ActionListener,MouseListener {
 	 */
 	public Principal() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setTitle("Sistema Médico NAAFA");
 		setResizable(false);
 		setSize(800,600);
 		setLocationRelativeTo(null);
